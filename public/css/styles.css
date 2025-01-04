@@ -1,0 +1,79 @@
+body {
+    background-color: #222;
+    color: #ccc;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+body.game-bg {
+    background: url('../images/game_bg.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+body.rules-bg {
+    background: url('../images/rules_bg.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+body.login-bg {
+    background: url('../images/login_bg.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+body.register-bg {
+    background: url('../images/register_bg.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+button {
+    background-color: #444;
+    color: #fff;
+    border: 1px solid #777;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #666;
+}
+
+input[type="text"],
+input[type="password"] {
+    background-color: #333;
+    color: #ccc;
+    border: 1px solid #555;
+    padding: 8px;
+    width: 200px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.error {
+    color: #ff6666;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #333;
+    display: inline-block;
+    border: 1px solid #444;
+    white-space: pre-line;
+}
+
+a {
+    color: #47a7ff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
